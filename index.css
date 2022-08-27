@@ -1,0 +1,96 @@
+#recommended_buttons_container > button {
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: 1px solid #e3e3e3;
+}
+
+#recommended_buttons_container > button:hover {
+  color: white;
+  background-color: black;
+}
+
+#recommended_buttons_container > button:nth-child(1) {
+  background-color: black;
+}
+
+#main-videos-container {
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  font-weight: 500;
+  max-height: 45px;
+  overflow: hidden;
+}
+
+.card-text {
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.card-text > p {
+  align-items: center;
+  margin: none;
+}
+
+.card {
+  min-height: 300px;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+#home_sidebar > button > p {
+  font-size: 10px;
+}
+
+#home_sidebar > button:hover {
+  background-color: #f2f2f2;
+}
+
+#home_sidebar > button > .bi {
+  font-size: 24px;
+}
+
+.debouncer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 530px;
+  margin-top: -1%;
+  margin-left: 21.5%;
+  z-index: 1;
+  background-color: white;
+  /* border: 1px solid black; */
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.debouncer > div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  padding: 2%;
+  overflow: hidden;
+  min-height: 40px;
+  margin: 1%;
+}
+
+.debouncer > div:hover {
+  cursor: pointer;
+  background-color: #999;
+}
+
+.channel_thumb {
+  height: 50%;
+  width: 18%;
+  margin: 2%;
+  margin-top: 6%;
+  border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
